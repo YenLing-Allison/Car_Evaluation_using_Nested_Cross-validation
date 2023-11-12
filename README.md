@@ -40,12 +40,12 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 | --- | --- | --- |
 | Decision Tree | 0.94 | 0.98 |
 | Logistic Regression | 0.90 | 0.82 |
-| KNN | 0.85 | 0.94 | 
-| Naive Bayes | 0.85 | 0.94 | 
+| KNN | 0.85 | 0.94 |
+| Naive Bayes | 0.85 | 0.94 |
 | SVM | 0.99 | 0.98 |
 
 4. Final SVM model  
-| Description | Result | 
+| Description | Result |
 | --- | --- |
 | Model | SVM |
 | Best parameters | {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} |
