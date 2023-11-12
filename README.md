@@ -6,7 +6,7 @@ Build five different models to predict car evaluation using nested cross-validat
 2. In this classification problem your input variables are ordinal. Should you treat them as numeric or categorical? What are pros and cons? You can try building your models both ways; which demonstrate better predictive performance?
 
 # Data Resource
-Dataset: [https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data ](https://archive.ics.uci.edu/dataset/19/car+evaluation) 
+Dataset: [https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data ](https://archive.ics.uci.edu/dataset/19/car+evaluation)   
 This dataset has 1728 records, each record representing a car evaluation. Each car evaluation is described with 7 attributes. 6 of the attributes represent car characteristics, such as buying price, price of the maintenance, number of doors, capacity in terms of persons to carry, the size of luggage boot, and estimated safety of the car. The seventh variable represents the evaluation of the car (unacceptable, acceptable, good, very good).
 
 # Analysis Process
@@ -35,7 +35,7 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 2. Models comparision of ordinal dataset  
 * In the five models with ordinal data, I found that **mean scores of mostly models are up to 90%, and support vector machine performs the best.** Thus I use SVM to rebuild the model and tune hyperparameters again.
 
-3. Model comparison
+3. Model comparison  
 | Model | Mean accuracy of categorical data | Mean accuracy of ordinal data |
 | --- | --- | --- |
 | Decision Tree | 0.94 | 0.98 |
@@ -44,9 +44,9 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 | Naive Bayes | 0.85 | 0.94 | 
 | SVM | 0.99 | 0.98 |
 
-4. Final SVM model
+4. Final SVM model  
 | Description | Result | 
-| --- | --- | --- |
+| --- | --- |
 | Model | SVM |
 | Best parameters | {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} |
 | Accuracy | 0.99 |
