@@ -35,7 +35,7 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 2. Models comparision of ordinal dataset  
 * In the five models with ordinal data, I found that **mean scores of mostly models are up to 90%, and support vector machine performs the best.** Thus I use SVM to rebuild the model and tune hyperparameters again.
 
-3. Model comparison  
+# Model comparison  
 Model | Mean accuracy of categorical data | Mean accuracy of ordinal data
 --- | --- | --- 
 Decision Tree | 0.94 | 0.98 
@@ -44,7 +44,7 @@ KNN | 0.85 | 0.94
 Naive Bayes | 0.85 | 0.94 
 SVM | 0.99 | 0.98 
 
-4. Final SVM model  
+# Final SVM model  
 Description | Result 
 --- | --- 
 Model | SVM 
