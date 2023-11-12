@@ -41,8 +41,8 @@ Model | Mean accuracy of categorical data | Mean accuracy of ordinal data
 Decision Tree | 0.94 | 0.98 
 Logistic Regression | 0.90 | 0.82 
 KNN | 0.85 | 0.94 
-| Naive Bayes | 0.85 | 0.94 
-| SVM | 0.99 | 0.98 
+Naive Bayes | 0.85 | 0.94 
+SVM | 0.99 | 0.98 
 
 4. Final SVM model  
 Description | Result 
