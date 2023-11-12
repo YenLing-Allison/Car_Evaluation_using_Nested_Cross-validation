@@ -36,21 +36,21 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 * In the five models with ordinal data, I found that **mean scores of mostly models are up to 90%, and support vector machine performs the best.** Thus I use SVM to rebuild the model and tune hyperparameters again.
 
 3. Model comparison  
-| Model | Mean accuracy of categorical data | Mean accuracy of ordinal data |
-| --- | --- | --- |
-| Decision Tree | 0.94 | 0.98 |
-| Logistic Regression | 0.90 | 0.82 |
-| KNN | 0.85 | 0.94 |
-| Naive Bayes | 0.85 | 0.94 |
-| SVM | 0.99 | 0.98 |
+Model | Mean accuracy of categorical data | Mean accuracy of ordinal data
+ --- | --- | --- 
+Decision Tree | 0.94 | 0.98 
+Logistic Regression | 0.90 | 0.82 
+KNN | 0.85 | 0.94 
+| Naive Bayes | 0.85 | 0.94 
+| SVM | 0.99 | 0.98 
 
 4. Final SVM model  
-| Description | Result |
-| --- | --- |
-| Model | SVM |
-| Best parameters | {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} |
-| Accuracy | 0.97 |
-| Kappa | 0.95 |
-| MCC | 0.97 |
+Description | Result 
+--- | --- 
+Model | SVM 
+Best parameters | {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} 
+Accuracy | 0.97 
+Kappa | 0.95 
+MCC | 0.97 
 
 
