@@ -46,11 +46,11 @@ This dataset has 1728 records, each record representing a car evaluation. Each c
 
 
 4. Final SVM model  
-| Description    | Result                           |
-| -------------- | -------------------------------- |
-| Model          | SVM                              |
-| Best parameters| {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} |
-| Accuracy       | 0.97                             |
-| Kappa          | 0.95                             |
-| MCC            | 0.97                             |
+| Description     | Result                              |
+| --------------- | ----------------------------------- |
+| Model           | SVM                                 |
+| Best parameters | {'C': 9.5, 'gamma': 1, 'kernel': 'rbf'} |
+| Accuracy        | 0.97                                |
+| Kappa           | 0.95                                |
+| MCC             | 0.97                                |
 
