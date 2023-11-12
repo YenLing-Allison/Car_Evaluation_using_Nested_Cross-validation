@@ -1,5 +1,6 @@
 # Car_Evaluation_using_Nested_Cross-validation
 Build five different models to predict car evaluation using nested cross-validation with categorical and ordinal target variable
+https://github.com/YenLing-Allison/Car_Evaluation_using_Nested_Cross-validation
 
 # Business Question
 1. Among the basic classification techniques that you are familiar with (i.e., decision tree, k-NN, logistic regression, NB, SVM) use all that would be applicable to this dataset to predict the evaluation of the cars based on their characteristics. Explore how well these techniques perform for several different parameter values. Present a brief overview of your predictive modeling process, explorations, and discuss your results. Present your final model (i.e., the best predictive model that you were able to come up with), and discuss its performance in a comprehensive manner (overall accuracy; per-class performance, i.e., whether this model predicts all classes equally well, or if there some classes for which it does much better than others; etc.).
